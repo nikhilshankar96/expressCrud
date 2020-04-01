@@ -1,17 +1,21 @@
 {
-  "name": "expresscrud",
-  "version": "1.0.0",
-  "description": "express crud app",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Nikhil Shankar",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
-    "express-handlebars": "^3.0.0",
-    "mongoose": "^5.3.4"
-  }
+	"name": "expresscrud",
+	"version": "1.0.0",
+	"description": "express crud app",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon server.js"
+	},
+	"author": "Nikhil Shankar",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"express": "^4.16.4",
+		"express-handlebars": "^3.0.0",
+		"handlebars": "^4.5.3",
+		"mongoose": "^5.3.4",
+		"nodemon": "^2.0.2"
+	},
+	"devDependencies": {}
 }
